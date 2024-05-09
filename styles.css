@@ -17,21 +17,27 @@ body, html {
     padding: 20px;
 }
 
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
+.logo img {
+    width: 100%;
+    padding: 10px 0;
 }
 
-.sidebar ul li a {
-    color: #ccc;
-    text-decoration: none;
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li a {
     display: block;
     padding: 10px;
+    color: #ccc;
+    text-decoration: none;
     border-left: 3px solid transparent;
 }
 
-.sidebar ul li a:hover {
-    border-left: 3px solid #569cd6;
+.menu li a.active, .menu li a:hover {
+    border-left-color: #569cd6;
 }
 
 .container {
@@ -50,9 +56,9 @@ body, html {
 }
 
 .header p {
-    color: #dcdcdc;
     font-size: 20px;
     margin-top: -10px;
+    color: #dcdcdc;
 }
 
 .profile-pic {
@@ -76,4 +82,16 @@ body, html {
 
 .skills button:hover, .navigation button:hover {
     background-color: #444;
+}
+
+.about {
+    background-color: #007acc;
+}
+
+.contact {
+    background-color: #5bb12f;
+}
+
+.contract {
+    background-color: #a333c8;
 }
