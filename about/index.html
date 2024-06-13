@@ -14,7 +14,7 @@
         <div id="header"></div>
 
         <main class="px-3" style="font-family: 'Courier New', Courier, monospace;">
-            <h1 class="pt-5">About</h1>
+            <h1 class="pt-5">About me</h1>
             <p class="lead">Information about me</p>
         </main>
 
@@ -22,21 +22,7 @@
 
     </div>
 
-    <script>
-        // Function to load external HTML
-        function loadHTML(elementId, url) {
-          fetch(url)
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById(elementId).insertAdjacentHTML('beforebegin', data);
-                document.getElementById(elementId).remove();
-            });
-        }
-    
-        // Load header and footer
-        loadHTML('header', '../header.html');
-        loadHTML('footer', '../footer.html');
-      </script>
+    <script src="/dynamic-loader.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
