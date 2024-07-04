@@ -1,0 +1,38 @@
+[
+    {
+        "imageLink": "https://www.sketchdev.io/hubfs/logo-sketch-development-color.svg",
+        "title": "Sketch Dev Internship",
+        "description": "During my 7-month internship at Sketch Development, my fellow interns and I migrated Jira plugins and databases from Heroku to AWS, Dockerized applications, fixed bugs, and documented the process, ensuring a smooth transition to the development team and enhancing my Docker skills.",
+        "viewLink": "https://www.sketchdev.io/",
+        "dateRange": "Oct 2023 - Apr 2024"
+    },
+    {
+        "imageLink": "https://github.com/chrismuntean/Pursuit-Alert/raw/main/readme-media/demo-output.gif",
+        "title": "Pursuit Alert",
+        "description": "Counter surveillance system that detects vehicles that may be following you using ALPR. Designed simply with open source projects.",
+        "viewLink": "https://github.com/chrismuntean/Pursuit-Alert",
+        "dateRange": "Sep 2023 - Apr 2024"
+    },
+    {
+        "imageLink": "aq-iq.png",
+        "title": "Antarctic Intelligence",
+        "description": "I designed and developed the website for Antarctic Intelligence, a consulting firm, leveraging Squarespace to ensure a professional and user-friendly online presence.",
+        "viewLink": "https://aq-iq.org/",
+        "archiveLink": "https://web.archive.org/web/20240610200942/https://aq-iq.org/",
+        "dateRange": "Mar 2024"
+    },
+    {
+        "imageLink": "https://github.com/chrismuntean/Goblin-Code/raw/main/gameplay-ss.png",
+        "title": "Goblin Code",
+        "description": "For the Missouri Hacks 2024 Competition at Mizzou, I developed a game that earned me the Creativity Prize and a $25 award, competing against 31 other participants.",
+        "viewLink": "https://github.com/chrismuntean/Goblin-Code",
+        "dateRange": "Feb 2024"
+    },
+    {
+        "imageLink": "troop-677.png",
+        "title": "Troop 677 Website",
+        "description": "Over a year, I led a team to redesign our Boy Scout Troop's website, enhancing it with custom CSS, JavaScript, and HTML on Troop Web Host. This experience sharpened my leadership and web development skills.",
+        "viewLink": "https://github.com/chrismuntean/Troop-Web-Host-Overrides",
+        "dateRange": "2021"
+    }
+]
