@@ -48,3 +48,15 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+
+/*
+  * Footer
+  */
+
+.footer-link {
+  color: white;
+}
+
+.footer-link:hover {
+  color: grey;
+}
