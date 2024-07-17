@@ -38,7 +38,7 @@
     {
         "imageLink": "IXL-bot.png",
         "title": "IXL Bot",
-        "description": "Created a bot that does my 10th grade math homework for me. Utilizes OpenAI's API and Selenium to autonomously read, solve, and answer each question.",
+        "description": "I created a bot to do my 10th grade math homework for me. The program utilizes OpenAI's API and Selenium to autonomously read, solve, and answer each question.",
         "viewLink": "https://github.com/chrismuntean/IXL-OpenAI/",
         "dateRange": "Apr 2022"
     },
