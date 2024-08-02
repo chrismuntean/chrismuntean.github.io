@@ -26,7 +26,7 @@
         <div id="header"></div>
 
         <main class="px-3" style="font-family: 'Courier New', Courier, monospace;">
-            <h1 class="pt-5 fw-bold">Resume (<a href="/resume/resume.pdf" target="_blank">download</a>)</h1>
+            <h1 class="pt-5 fw-bold">Resume (<a href="/resume/resume-redacted.pdf" target="_blank">download</a>)</h1>
             <div id="pdf-container" class="py-3">
                 <canvas id="pdf-canvas"></canvas>
             </div>
@@ -41,7 +41,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
     <script>
         // URL of the PDF
-        var url = '/resume/resume.pdf';
+        var url = '/resume/resume-redacted.pdf';
 
         // Asynchronous download of PDF
         var loadingTask = pdfjsLib.getDocument(url);
