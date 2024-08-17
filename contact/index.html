@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.9.1/build/css/intlTelInput.css">
 </head>
 <body class="d-flex min-vh-100 text-center text-bg-dark">
     
@@ -15,8 +16,76 @@
         <div id="header"></div>
 
         <main class="px-3" style="font-family: 'Courier New', Courier, monospace;">
-            <h1 class="pt-5">Contact me</h1>
-            <p class="lead">My contact information</p>
+            <h1 class="mt-5 pb-4 fw-bold">Contact me</h1>
+
+            <form class="mb-5" action="https://formspree.io/f/xeojklal" method="POST">
+
+                <div class="row mb-4">
+                    <select class="form-select form-select-lg" name="service" required>
+                        <option selected disabled value="">Select service</option>
+
+                        <optgroup label="Website building">
+                            <option value="Basic website">Basic website</option>
+                            <option value="Online store">Online store</option>
+                            <option value="Raw code">Raw code</option>
+                        </optgroup>
+
+                        <optgroup label="Automation building">
+                            <option value="Messenger bot">Messenger bot</option>
+                            <option value="Task bot">Task bot</option>
+                            <option value="CV Recognition">CV Recognition</option>
+                        </optgroup>
+
+                        <optgroup label="Other services">
+                            <option value="Messenger bot">Home tech support</option>
+                            <option value="Other">I'm not sure/ other</option>
+                        </optgroup>
+
+                    </select>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col ps-0">
+                        <div class="form-floating">
+                            <input name="first-name" class="form-control" id="first-floater" placeholder="First name" required>
+                            <label for="first-floater">First name</label>
+                        </div>
+                    </div>
+
+                    <div class="col pe-0">
+                        <div class="form-floating">
+                            <input name="last-name" class="form-control" id="last-floater" placeholder="Last name" required>
+                            <label for="last-floater">Last name</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="form-floating px-0">
+                        <textarea name="idea" class="form-control" placeholder="Write your idea here" id="message-floater" style="height: 100px" required></textarea>
+                        <label for="message-floater">What can I do for you?</label>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col ps-0">
+                        <div class="form-floating">
+                            <input name="email" type="email" class="form-control" id="email" placeholder="Email address" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+
+                    <div class="col pe-0">
+                        <div class="form-floating">
+                            <input name="phone" type="tel" class="form-control" id="phone" placeholder="Phone number" pattern="[0-9\(\)\-\s]*">
+                            <label for="phone">Phone <span class="text-muted">(optional)</span></label>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-lg btn-info fw-bold" type="submit">Submit</button>
+            </form>
+
         </main>
 
         <div id="footer"></div>
@@ -25,5 +94,20 @@
 
     <script src="/dynamic-loader.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/libphonenumber-js/1.10.18/libphonenumber-js.min.js"></script>
+    <script>
+        const phoneInputField = document.getElementById('phone');
+
+        phoneInputField.addEventListener('input', function() {
+            let phoneInput = phoneInputField.value;
+            
+            try {
+                const phoneNumber = libphonenumber.parsePhoneNumber(phoneInput, 'US');
+                phoneInputField.value = phoneNumber.formatNational(); // Formats as a national number
+            } catch (error) {
+                // Handle invalid input or continue without formatting
+            }
+        });
+    </script>
 </body>
 </html>
