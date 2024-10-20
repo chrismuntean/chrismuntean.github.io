@@ -21,13 +21,6 @@
         "dateRange": "Sep 2023 - Apr 2024"
     },
     {
-        "imageLink": "MODOT-Counter.jpg",
-        "title": "MODOT Counter",
-        "description": "Simple computer vision application that counts the number of vehicles seen on the Missouri Department of Transportation's public highway cameras.",
-        "viewLink": "https://github.com/chrismuntean/MODOT-Counter",
-        "dateRange": "Aug 2024"
-    },
-    {
         "imageLink": "AQ-IQ.png",
         "title": "Antarctic Intelligence",
         "description": "I designed and developed the website for Antarctic Intelligence, a consulting firm, leveraging Squarespace to ensure a professional and user-friendly online presence.",
@@ -41,6 +34,13 @@
         "description": "For the Missouri Hacks 2024 Competition at Mizzou, I developed a python game that earned me the Creativity Prize and a $25 award, competing against 31 other participants.",
         "viewLink": "https://github.com/chrismuntean/Goblin-Code",
         "dateRange": "Feb 2024"
+    },
+    {
+        "imageLink": "MODOT-Counter.jpg",
+        "title": "MODOT Counter",
+        "description": "Simple computer vision application that counts the number of vehicles seen on the Missouri Department of Transportation's public highway cameras.",
+        "viewLink": "https://github.com/chrismuntean/MODOT-Counter",
+        "dateRange": "Aug 2023"
     },
     {
         "imageLink": "IXL-bot.png",
