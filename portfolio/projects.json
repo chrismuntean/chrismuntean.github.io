@@ -1,5 +1,12 @@
 [
     {
+        "imageLink": "Live-PD.jpg",
+        "title": "Live PD",
+        "description": "A Telegram bot that uses OpenAI's Whisper AI to transcribe live Police, Fire, EMS, Aviation, and Rail radio broadcasts from Broadcastify streams, delivering real-time updates to subscribers.",
+        "viewLink": "https://github.com/chrismuntean/Live-PD",
+        "dateRange": "Oct 2024"
+    },
+    {
         "imageLink": "https://www.sketchdev.io/hubfs/logo-sketch-development-color.svg",
         "title": "Sketch Dev Internship",
         "description": "During my 6-month internship at Sketch Development, my fellow interns and I migrated Jira plugins and databases from Heroku to AWS, Dockerized applications, fixed bugs, and documented the process, ensuring a smooth transition to the development team.",
