@@ -1,5 +1,12 @@
 [
     {
+        "imageLink": "https://github.com/chrismuntean/YOLO11n-pose-hands/raw/main/readme-media/test.gif",
+        "title": "YOLO11n Hand Keypoint Detection",
+        "description": "Trained computer vision model to detect hand keypoints on a dataset of over 26k images. Pretrained on YOLO11n, the model can detect 21 keypoints on hands, including fingers, wrists, and palms.",
+        "viewLink": "https://github.com/chrismuntean/YOLO11n-pose-hands",
+        "dateRange": "Oct 2024"
+    },
+    {
         "imageLink": "Live-PD.jpg",
         "title": "Live PD",
         "description": "A Telegram bot that uses OpenAI's Whisper AI to transcribe live Police, Fire, EMS, Aviation, and Rail radio broadcasts from Broadcastify streams, delivering real-time updates to subscribers.",
