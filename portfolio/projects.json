@@ -1,5 +1,12 @@
 [
     {
+        "imageLink": "Handify.gif",
+        "title": "Handify",
+        "description": "Gesture-controlled Spotify player built with Google's MediaPipe Hand Landmarker and the Spotify Web API. Dockerized for x86 architecture and automated via GitHub Actions.",
+        "viewLink": "https://github.com/chrismuntean/Handify",
+        "dateRange": "Oct - Nov 2024"
+    },
+    {
         "imageLink": "https://github.com/chrismuntean/YOLO11n-pose-hands/raw/main/readme-media/test.gif",
         "title": "YOLO11n Hand Keypoint Detection",
         "description": "Trained computer vision model to detect hand keypoints on a dataset of over 26k images. Pretrained on YOLO11n, the model can detect 21 keypoints on hands, including fingers, wrists, and palms.",
