@@ -1,5 +1,13 @@
 [
     {
+        "imageLink": "Gumroad-Clone.png",
+        "title": "Gumroad Clone",
+        "description": " Simple clone of Gumroad utilizing Square's checkout API, Firebase auth, Firestore Database, and Clouflare Zero Trust for securing the admin panel. Fully serverless hosted on Cloudflare Pages & Workers to save myself the 10% commission Gumroad takes.",
+        "viewLink": "https://photos.chrismuntean.dev",
+        "archiveLink": "https://github.com/chrismuntean/Gumroad-Clone",
+        "dateRange": "Feb 2025"
+    },
+    {
         "imageLink": "Handify.gif",
         "title": "Handify",
         "description": "Gesture-controlled Spotify player built with Google's MediaPipe Hand Landmarker and the Spotify Web API. Dockerized for x86 architecture and automated via GitHub Actions.",
