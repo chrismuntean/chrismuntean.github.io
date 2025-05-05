@@ -1,8 +1,15 @@
 [
     {
+        "imageLink": "Avenir-Culture.png",
+        "title": "AVENIR Culture",
+        "description": "I developed a fully custom Shopify site for AVENIR Culture, a clothing brand focused on clean, modern design. I removed all default Shopify branding and wrote custom Liquid and CSS code to match the client's vision. The final result was a sleek, fully branded shopping experience tailored to their aesthetic and audience.",
+        "viewLink": "https://avenirculture.com",
+        "dateRange": "Mar 2025"
+    },
+    {
         "imageLink": "Gumroad-Clone.png",
         "title": "Gumroad Clone",
-        "description": " Simple clone of Gumroad utilizing Square's checkout API, Firebase auth, Firestore Database, and Clouflare Zero Trust for securing the admin panel. Fully serverless hosted on Cloudflare Pages & Workers to save myself the 10% commission Gumroad takes.",
+        "description": "Simple clone of Gumroad utilizing Square's checkout API, Firebase auth, Firestore Database, and Clouflare Zero Trust for securing the admin panel. Fully serverless hosted on Cloudflare Pages & Workers to save myself the 10% commission Gumroad takes.",
         "viewLink": "https://photos.chrismuntean.dev",
         "archiveLink": "https://github.com/chrismuntean/Gumroad-Clone",
         "dateRange": "Feb 2025"
@@ -22,7 +29,7 @@
         "dateRange": "Oct 2024"
     },
     {
-        "imageLink": "Live-PD.jpg",
+        "imageLink": "Live-PD.png",
         "title": "Live PD",
         "description": "A Telegram bot that uses OpenAI's Whisper AI to transcribe live Police, Fire, EMS, Aviation, and Rail radio broadcasts from Broadcastify streams, delivering real-time updates to subscribers.",
         "viewLink": "https://github.com/chrismuntean/Live-PD",
